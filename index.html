@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6th JavaScript Assignment</title>
+</head>
+<body>
+    <div id="top"></div>
+
+    <!-- New Assigment 
+    Chapter 46, 48 (Events) -->
+
+    <!-- Question No. 1   -->
+
+    <a onclick="alert('Hello My Dear')" href="#">Click me.</a>
+    <br>
+     
+
+    <!-- Question No. 2 -->
+    
+    <p id="hide">This is element to hide.</p>
+
+    <button onclick="hide()">Hide</button>
+
+
+    <!-- Question No. 3 -->
+
+    <p onmouseover="style.backgroundColor = 'silver'"
+        onmouseout="style.backgroundColor = 'white'">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit iste maxime ut laudantium odit minus tenetur accusantium eligendi, autem debitis consequuntur, aliquid vel! Nihil iusto commodi atque quisquam ex.</p> 
+
+
+    <!-- Question No. 4 -->
+
+    <a href="#top">Back to top</a>
+    <br>
+
+    <!-- Question No. 6 -->
+
+    <a id="Next_Page" href="#">Next Page</a>
+    <br>
+
+    <!-- Question No. 7 -->
+
+    <button onclick="alert('This is Alert')">Alert</button>
+    <br>
+
+    <!-- Question No. 8 -->
+    
+    <button onmouseover="style.backgroundColor = 'aqua'
+            style.color ='red'">Color Changes</button>
+    <br>
+    
+    <!-- Question No. 10 -->
+
+    <div style="background-color: blue; color: white; width: 50px; height: 50px;">
+        <p onmouseover="alert('Hey My Dear')" >
+            Mouse Over Me
+        </p>
+    </div>
+
+    <!-- Question No. 11 -->
+
+    <div  onmouseout="style.display = 'none'" style="background-color: aqua; width: 50px; height: 50px;">
+        <p>Click to hide</p>
+    </div>
+    <hr>
+    
+    <!-- New Assigment 
+    Chapter 46, 48 (Events) 
+    Completed-->
+
+
+    <!-- Chapter 49, 50 
+    (Reading and Setting field values) -->
+
+
+    <!-- Question No. 1, 2, 3 -->
+
+    <div>
+        <label for="input1">Full Name:</label> <input type="text" name="name" id="input1" value="" placeholder="Enter Your Full Name">
+        <br>
+        
+        Your Favourite Music: 
+        <label for="input2">FM</label><input type="checkbox" id="input2.1" value="FM">
+        <label for="input3">Rock</label><input type="checkbox" id="input2.2" value="Rock">
+        <label for="input4">Hip hop</label><input type="checkbox" id="input2.3" value="Hip hop">
+        <br>
+
+        <label for="Country">Country:</label>
+        <select name="Country" id="Country">
+            <option value="Pakistan">Pakistan</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Saudia">Saudia</option>
+
+        </select>
+        <br>
+
+        <button onclick="input()">Submit</button>
+    </div>
+    <br>
+    <br>
+
+    <!-- Question No. 4 -->
+
+    <input type="text" name="" id="myTextField" value="This is some text">
+    <br>
+    <br>
+
+    <!-- Question No. 5 -->
+
+    <label for="status">Martial Status:</label>
+    <input type="text" id="status">
+    <button onclick="status()">Update Status</button>
+    <br>
+    <br>
+
+    <!-- Question No. 5 -->
+    
+    <input type="text" id="string">
+
+
+    <script src="app.js"></script>
+</body>
+</html>
